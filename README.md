@@ -12,6 +12,8 @@ PyVogen是开源歌声合成引擎Vogen的python实现，提供python与命令�
 [安装与配置](安装与配置.md)
 
 [命令行api](命令行.md)
+
+[在python中使用pyvogen](使用pyvogen.ipynb)
 ## 示例
 
 ## 参考
