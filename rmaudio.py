@@ -13,5 +13,6 @@ for filename in os.listdir("."):
             for cell in content["cells"]:
                 if("outputs" in cell):
                     cell["outputs"]=[out for out in cell["outputs"] if not(isaudio(out))]
+            outstr=json.dumps(content,indent=1)
             with open(filename,"w",encoding="utf8") as file:
-                json.dump(content,file)
+                file.write(outstr)
