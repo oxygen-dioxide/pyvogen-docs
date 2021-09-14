@@ -20,6 +20,8 @@ PyVogen是开源歌声合成引擎Vogen的python实现，提供python与命令�
 
 [高级对象操作](高级对象操作.ipynb)
 
+[其他文件格式与剪贴板操作](互联互通.ipynb)
+
 [使用pyvogen的music21接口](使用music21接口.ipynb)
 
 ## 相关链接
